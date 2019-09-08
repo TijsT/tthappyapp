@@ -73,7 +73,7 @@ public class SecondActivity extends AppCompatActivity {
     }
     public void updateTimer() {
         int minutes = (int) timeLeftInMilliseconds / 60000;
-        int seconds = (int) timeLeftInMilliseconds % 6000 / 1000;
+        int seconds = (int) timeLeftInMilliseconds % 60000 / 1000;
 
         String timeLeftText;
 
