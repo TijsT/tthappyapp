@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">The Happy App</string>
+    <string name="button">The Happy App</string>
+    <string name="text_2">Timer</string>
 </resources>
